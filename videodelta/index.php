@@ -115,10 +115,18 @@
 			lavorazioni video e grafiche (editing, titoli, cartelli, sottotitoli). Videodelta si avvale di un ampio organico di traduttori e adattatori, fonici e montatori video, 
 			nonché di un ricco panel di doppiatori professionisti e direttori del doppiaggio attivi a Torino, Roma e Milano.
 			</p>
+			<div>
+			<p><h2>Guarda in nostro Showreel!</h2></p>
+			<video width="800" controls>
+            <source src="video/showreel_2017.mp4" type="video/mp4">
+             Your browser does not support HTML5 video.
+             </video>
+			 </div>
 			</div>
 			<div class="col-md-4">
 			
 				<?php include_once ("aside.php"); ?>
+
 			
 			</div>
 		</div>
@@ -127,6 +135,7 @@
 	<?php include_once ("footer.php"); ?>
 	
 </div>
+
 	
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
