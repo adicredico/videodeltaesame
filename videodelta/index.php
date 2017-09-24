@@ -116,7 +116,7 @@
 			nonché di un ricco panel di doppiatori professionisti e direttori del doppiaggio attivi a Torino, Roma e Milano.
 			</p>
 			<div>
-			<p><h2>Guarda in nostro Showreel!</h2></p>
+			<p><h2>Guarda il nostro Showreel!</h2></p>
 			<video width="800" controls>
             <source src="video/showreel_2017.mp4" type="video/mp4">
              Your browser does not support HTML5 video.
