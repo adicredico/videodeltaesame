@@ -9,6 +9,7 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,12 +42,12 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Chi siamo<span class="sr-only">(current)</span></a></li>
-				<li><a href="#">Le voci</a></li>
-				<li><a href="#">Gli studi</a></li>
+				<li><a href="index.php">Chi siamo</a></li>
+				<li><a href="voci.php">Le voci</a></li>
+				<li><a href="studi.php">Gli studi</a></li>
 				<li><a href="clienti.php">I clienti</a></li>
-				<li><a href="#">Dove siamo</a></li>
-				<li><a href="#">Contatti</a></li>
+				<li><a href="dove_siamo.php">Dove siamo</a></li>
+				<li class="active"><a href="#">Contatti<span class="sr-only">(current)</span></a></li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Crediti<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">Cartoni animati</a></li>
@@ -103,13 +104,13 @@
 			</div>
 			<div class="col-md-8">
 				<h2>Via Vandalino, 49 - 10142 TORINO</h2>
-				<p>Centralino 011 772 31 35  dalle 9 alle 18 da lunedì a venerdì</p>
-				<p>Oppure invia una mail a info@videodeltasrl.it</p>
+				<p><h3>Centralino 011 772 31 35  dalle 9 alle 18 da lunedì a venerdì</p>
+				<p>Oppure invia una mail a info@videodeltasrl.it</h3></p>
 				
 				<h4>Contatti diretti:</h4>
 				<div class="media">
 					<div class="media-left">
-						<img src="images/studi/4700.jpg" class="media-object" style="width:45px">
+						<img src="images/thumb/mario2.png" class="media-object" style="width:45px">
 					</div>
 					<div class="media-body">
 						<h3 class="media-heading">Mario Brusa <small><i><b>Direttore Artistico</b></i></small></h3>
@@ -118,7 +119,7 @@
 						<!-- Nested media object -->
 						<div class="media">
 							<div class="media-left">
-								<img src="img_avatar2.png" class="media-object" style="width:45px">
+								<img src="images/thumb/cristina.png" class="media-object" style="width:45px">
 							</div>
 							<div class="media-body">
 								<h3 class="media-heading">Cristina Cantello <small><i><b>Responsabile Commerciale</b></i></small></h3>
@@ -127,7 +128,7 @@
 								<!-- Nested media object -->
 								<div class="media">
 									<div class="media-left">
-										<img src="img_avatar3.png" class="media-object" style="width:45px">
+										<img src="images/thumb/andrea2.png" class="media-object" style="width:45px">
 									</div>
 									<div class="media-body">
 										<h3 class="media-heading">Andrea Di Credico<small><i><b>Responsabile Tecnico e Project Manager</b></i></small></h3>

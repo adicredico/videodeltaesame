@@ -9,6 +9,7 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,8 +46,8 @@
 				<li><a href="voci.php">Le voci</a></li>
 				<li class="active"><a href="#">Gli studi</a></li>
 				<li><a href="clienti.php">I clienti<span class="sr-only">(current)</span></a></li>
-				<li><a href="#">Dove siamo</a></li>
-				<li><a href="#">Contatti</a></li>
+				<li><a href="dove_siamo.php">Dove siamo</a></li>
+				<li><a href="contatti.php">Contatti</a></li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Crediti<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">Cartoni animati</a></li>

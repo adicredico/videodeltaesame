@@ -9,6 +9,7 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,10 +44,10 @@
 			<ul class="nav navbar-nav">
 				<li><a href="index.php">Chi siamo</a></li>
 				<li class="active"><a href="#">Le voci<span class="sr-only">(current)</span></a></li>
-				<li><a href="#">Gli studi</a></li>
+				<li><a href="studi.php">Gli studi</a></li>
 				<li><a href="clienti.php">I clienti</a></li>
-				<li><a href="#">Dove siamo</a></li>
-				<li><a href="#">Contatti</a></li>
+				<li><a href="dove_siamo.php">Dove siamo</a></li>
+				<li><a href="contatti.php">Contatti</a></li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Crediti<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">Cartoni animati</a></li>
@@ -114,7 +115,7 @@
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-md-6" style="background-color:silver;">
+						<div class="col-md-6" style="background-color:LightGrey;">
 							<h3> Attore 102</h3>
 							<audio controls>
 								<source src="voci/102ACCORNERO.mp3" type="audio/mpeg">
@@ -128,7 +129,7 @@
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-md-6" style="background-color:silver;">
+						<div class="col-md-6" style="background-color:LightGrey;">
 							<h3> Attore 104</h3>
 							<audio controls>
 								<source src="voci/104DANDREA.mp3" type="audio/mpeg">
@@ -142,7 +143,7 @@
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-sm-6" style="background-color:silver;">
+						<div class="col-sm-6" style="background-color:LightGrey;">
 							<h3> Attore 106</h3>
 							<audio controls>
 								<source src="voci/106LOMBARDO.mp3" type="audio/mpeg">
@@ -153,42 +154,42 @@
 				</div>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-sm-6" style="background-color:LightGray;">
+						<div class="col-sm-6" style="background-color:Beige ;">
 							<h3> Attrice 201</h3>
 							<audio controls>
 								<source src="voci/201CAGGIULA.mp3" type="audio/mpeg">
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-sm-6" style="background-color:LightGray ;">
+						<div class="col-sm-6" style="background-color:AntiqueWhite  ;">
 							<h3> Attrice 202</h3>
 							<audio controls>
 								<source src="voci/202MAZZA.mp3" type="audio/mpeg">
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-sm-6" style="background-color:LightGray ;">
+						<div class="col-sm-6" style="background-color:Beige  ;">
 							<h3> Attrice 203</h3>
 							<audio controls>
 								<source src="voci/203GIOLITTI.mp3" type="audio/mpeg">
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-sm-6" style="background-color:LightGray ;">
+						<div class="col-sm-6" style="background-color:AntiqueWhite  ;">
 							<h3> Attrice 204</h3>
 							<audio controls>
 								<source src="voci/204MOTTOLA.mp3" type="audio/mpeg">
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-sm-6" style="background-color:LightGray ;">
+						<div class="col-sm-6" style="background-color:Beige  ;">
 							<h3> Attrice 205</h3>
 							<audio controls>
 								<source src="voci/205POLLANI.mp3" type="audio/mpeg">
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-sm-6" style="background-color:LightGray ;">
+						<div class="col-sm-6" style="background-color:AntiqueWhite  ;">
 							<h3> Attrice 206</h3>
 							<audio controls>
 								<source src="voci/206ZILIOTTO.mp3" type="audio/mpeg">
