@@ -17,24 +17,24 @@
 						<div class="item active">
 							<img src="images/slideshow/torino1.jpg" alt="Torino">
 							<div class="carousel-caption">
-								<h2>Torino</h2>
-								<p>Studi e Uffici</p>
+								<h1><b>Torino</b></h1>
+								<p><h1>Studi e Uffici</h1></p>
 							</div>
 						</div>
 
 						<div class="item">
 							<img src="images/slideshow/milano2.jpg" alt="Milano">
 							<div class="carousel-caption">
-								<h2>Milano</h2>
-								<p>Una descrizione di questa immagine</p>
+								<h1><b>Milano</b></h1>
+								<p></p>
 							</div>
 						</div>
 
 						<div class="item">
 							<img src="images/slideshow/roma5.jpg" alt="Roma">
 							<div class="carousel-caption">
-								<h2>Roma</h2>
-								<p>Una descrizione di questa immagine</p>
+								<h1><b>Roma</b></h1>
+								<p></p>
 							</div>
 						</div>
 					</div>

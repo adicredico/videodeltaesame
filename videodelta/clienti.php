@@ -33,12 +33,21 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script> 
-$(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").slideToggle("slow");
-    });
+//$(document).ready(function(){
+ //   $("#flip").click(function(){
+  //      $("#panel").slideToggle("slow");
+  //  });
+//});
+$(function() {
+	
+	$('.panel-button').on('click', function(){
+		var panelId = $(this).attr('data-panelId');
+		$('#'+panelId).toggle();
+		
+	});
 });
 </script>
+
 
  
 	</head>
@@ -130,25 +139,27 @@ $(document).ready(function(){
 				<div class="container-fluid">
       				<div class="row">
        					<div class="col-md-6">
-					        <a href="#">
-           					<img class="img-thumbnail lazy" src="images/loghi/media.jpg" alt="">
-							</a>
-							<div id="flip">More info</div>
-                            <div id="panel">Mediaset S.p.A. è un'azienda privata italiana attiva nell'ambito dei media e della comunicazione. È specializzata primariamente in produzione e distribuzione televisiva in libera visione (free to air, FTA) e a pagamento (pay-tv e pay per view) su più piattaforme, oltre che in produzione e distribuzione cinematografica, multimediale e in raccolta pubblicitaria.
+					        <a href="#"><img class="img-thumbnail lazy" src="images/loghi/media.jpg" alt=""></a>
+							<button class="panel-button" data-panelId="panel1">More info</button>
+							<div id="panel1" style="display:none" class="panel panel-primary">
+							  
+                              <div class="panel-body">Mediaset S.p.A. è un'azienda privata italiana attiva nell'ambito dei media e della comunicazione. È specializzata primariamente in produzione e distribuzione televisiva in libera visione (free to air, FTA) e a pagamento (pay-tv e pay per view) su più piattaforme, oltre che in produzione e distribuzione cinematografica, multimediale e in raccolta pubblicitaria.
 
 È un conglomerato mediatico controllato dalla holding Fininvest, di proprietà della famiglia Berlusconi. È il secondo gruppo televisivo privato d'Europa[1] dopo la società lussemburghese RTL Group ed il primo in Italia; in termini di fatturato, è tra i più rilevanti a livello mondiale nel mercato globale dei media[2]. Nel 2010 è risultato miglior gruppo media italiano e quinto europeo nella classifica stilata da Thomson Reuters Extel[3]. Nel 2013, è stato classificato il 34º gruppo media al mondo, dopo la Sudafricana Naspers[4].
 
 La sede legale è nel centro di Milano, in via Paleocapa 3, mentre la direzione, la sede operativa e amministrativa sono a Cologno Monzese (Milano), in viale Europa 44/46/48. Dal 1994 il presidente del Gruppo Mediaset è Fedele Confalonieri.
 
 La società è quotata nell'indice FTSE MIB della Borsa di Milano dal 1996 (codice isin: IT0001063210, codice alfanumerico: MS) con una capitalizzazione di mercato al 31 marzo 2016 di 4,273 miliardi di euro e un fatturato annuale nel 2014 di 3,4 miliardi. È un'impresa multinazionale, le cui filiali principali si trovano in Spagna con il gruppo Mediaset España Comunicación quotato nell'indice IBEX-35 della Borsa di Madrid</div>
-		       				</div>
+		       				  </div>
+							 </div>
+						
+						
 							
 	      				<div class="col-md-6">
-         					<a href="#">
-    				    	<img class="img-thumbnail lazy" src="images/loghi/disney1.jpg" alt="">
-          					</a>
-							<div id="flip">More info</div>
-                            <div id="panel">La Walt Disney Company, comunemente conosciuta come Disney, è una multinazionale statunitense attiva nel settore mediatico e dell'intrattenimento con sede a Burbank, nello Stato della California.
+         					<a href="#"><img class="img-thumbnail lazy" src="images/loghi/disney1.jpg" alt=""></a>
+							<button class="panel-button" data-panelId="panel2">More info</button>
+							<div id="panel2" style="display:none" class="panel panel-primary">
+                            <div class="panel-body">La Walt Disney Company, comunemente conosciuta come Disney, è una multinazionale statunitense attiva nel settore mediatico e dell'intrattenimento con sede a Burbank, nello Stato della California.
 
 Fondato come studio cinematografico il 16 ottobre 1923 da Walter Disney e suo fratello Roy Oliver Disney col nome di Disney Brothers Cartoon Studio, è oggi il secondo conglomerato mediatico mondiale per ricavi, preceduto solo da Comcast. Nel 1986 l'azienda assume il nome attuale ed espande progressivamente le operazioni, concentrandosi in ulteriori settori come l'industria musicale, l'editoria e i media digitali.
 
