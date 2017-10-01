@@ -11,12 +11,19 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		<link href="css/styleVideodelta.css" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<script src="jquery/jquery.elevatezoom.js"></script>
+		<script src="jquery/jquery.elevateZoom-3.0.8.min.js"></script>
+		<script src="jquery/jquery-1.8.3.min.js"></script>
+		<script>
+		$("#zoom_mw").elevateZoom({scrollZoom : true});
+		</script>
 	</head>
 <body>
   
@@ -100,13 +107,24 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
-				<h1 class="page-header">Gli studi</h1>
+				<h1 class="page-header">Gli Studi:<button type="button" class="btn-btn-info" data-toggle="collapse" data-target="#demo3">dettagli</button></h1>
+				<div id="demo3" class="collapse">Videodelta dispone di sale di doppiaggio (5), sale missaggio (2), sincronizzazione (3) ed effetti (1), montaggio video (2) e duplicazione, equipaggiate con ProTools HD, Avid Nitris, FinalCut e Adobe Première Pro.</div>	
+				<h2 class="page-header">Schede tecniche:
+				<button type="button" class="btn-btn-info" data-toggle="collapse" data-target="#demo1">Audio</button>
+				<button type="button" class="btn-btn-info" data-toggle="collapse" data-target="#demo2">Video</button></h2>
+							<div id="demo1" class="collapse">Tutti gli Studi sono in rete ed attrezzati con ProTools HD versione 10
+                             – 5 Sale di Doppiaggio – 2 Sale di Missaggio (5.1 e Stereo) – 1 Studio per Rumori di Sala – Foley – 3 Regie di Sincronizzazione, Montaggio Effetti Speciali, Ingest e Codifica Dolby ProLogic II
+                             Per collegamenti con altri studi, ricezione e consegna dei materiali: FTP, SmartJog, Aspera – Connessione dedicata in Fibra Ottica Colt da 100 Mbps</div>
+							<div id="demo2" class="collapse">Due Sale di Editing Video con AVID Media Composer Nitris  – Sala di Editing Video con FinalCut Pro  e Adove Premiere Pro – Riaccoppiamento su Betacam SD ed SX, IMX, Digital Betacam, XDCAM</div>
+									
+				
 			</div>
 			<div class="col-md-8">
 				<div class="row text-center text-lg-left">
 					<div class="col-lg-3 col-md-4 col-xs-12">
 						<a href="#" class="d-block mb-4 h-100">
 							<img class="img-fluid img-thumbnail" src="images/studi/4719.jpg" alt="">
+							<!--<img class="img-fluid img-thumbnail" id="zoom_mw" src="images/studi/4719.png" data-zoom-image="images/800x600/4719_big.jpg"/>-->
 						</a>
 					</div>
 					<div class="col-lg-3 col-md-4 col-xs-12">
