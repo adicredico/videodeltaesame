@@ -89,7 +89,7 @@
 			
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-md-6" style="background-color:silver;">
+						<div class="col-md-6" style="background-color:DarkGrey;">
 							<h3> Attore 101</h3>
 							<audio controls>
 								<source src="voci/101CORBETTA.mp3" type="audio/mpeg">
@@ -103,7 +103,7 @@
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-md-6" style="background-color:silver;">
+						<div class="col-md-6" style="background-color:DarkGrey;">
 							<h3> Attore 103</h3>
 							<audio controls>
 								<source src="voci/103BIAGINI.mp3" type="audio/mpeg">
@@ -117,7 +117,7 @@
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-sm-6" style="background-color:silver;">
+						<div class="col-sm-6" style="background-color:DarkGrey;">
 							<h3> Attore 105</h3>
 							<audio controls>
 								<source src="voci/105DIBONO.mp3" type="audio/mpeg">
@@ -135,7 +135,7 @@
 				</div>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-sm-6" style="background-color:Beige ;">
+						<div class="col-sm-6" style="background-color:DarkSalmon;">
 							<h3> Attrice 201</h3>
 							<audio controls>
 								<source src="voci/201CAGGIULA.mp3" type="audio/mpeg">
@@ -149,7 +149,7 @@
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-sm-6" style="background-color:Beige  ;">
+						<div class="col-sm-6" style="background-color:DarkSalmon  ;">
 							<h3> Attrice 203</h3>
 							<audio controls>
 								<source src="voci/203GIOLITTI.mp3" type="audio/mpeg">
@@ -163,7 +163,7 @@
 								Your browser does not support the audio element.
 							</audio>
 						</div>
-						<div class="col-sm-6" style="background-color:Beige  ;">
+						<div class="col-sm-6" style="background-color:DarkSalmon  ;">
 							<h3> Attrice 205</h3>
 							<audio controls>
 								<source src="voci/205POLLANI.mp3" type="audio/mpeg">

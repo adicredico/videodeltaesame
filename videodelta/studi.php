@@ -83,7 +83,15 @@
 					<li><a href="index.php">Home</a></li>
 					<li class="active">Gli studi</li>
 				</ol>
-				<h1 class="page-header">Gli studi</h1>
+				<h1 class="page-header">Gli Studi:<button type="button" class="btn-btn-info" data-toggle="collapse" data-target="#demo3">dettagli</button></h1>
+				<div id="demo3" class="collapse">Videodelta dispone di sale di doppiaggio (5), sale missaggio (2), sincronizzazione (3) ed effetti (1), montaggio video (2) e duplicazione, equipaggiate con ProTools HD, Avid Nitris, FinalCut e Adobe Première Pro.</div>	
+				<h2 class="page-header">Schede tecniche:
+				<button type="button" class="btn-btn-info" data-toggle="collapse" data-target="#demo1">Audio</button>
+				<button type="button" class="btn-btn-info" data-toggle="collapse" data-target="#demo2">Video</button></h2>
+							<div id="demo1" class="collapse">Tutti gli Studi sono in rete ed attrezzati con ProTools HD versione 10
+                             – 5 Sale di Doppiaggio – 2 Sale di Missaggio (5.1 e Stereo) – 1 Studio per Rumori di Sala – Foley – 3 Regie di Sincronizzazione, Montaggio Effetti Speciali, Ingest e Codifica Dolby ProLogic II
+                             Per collegamenti con altri studi, ricezione e consegna dei materiali: FTP, SmartJog, Aspera – Connessione dedicata in Fibra Ottica Colt da 100 Mbps</div>
+							<div id="demo2" class="collapse">Due Sale di Editing Video con AVID Media Composer Nitris  – Sala di Editing Video con FinalCut Pro  e Adove Premiere Pro – Riaccoppiamento su Betacam SD ed SX, IMX, Digital Betacam, XDCAM</div>
 			</div>
 			<div class="col-md-9">
 				<div class="row">
