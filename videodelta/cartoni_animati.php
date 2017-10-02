@@ -45,14 +45,13 @@
 				<li><a href="clienti.php">I clienti</a></li>
 				<li><a href="dove_siamo.php">Dove siamo</a></li>
 				<li><a href="contatti.php">Contatti</a></li>
-				<li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Crediti<span class="caret"></span></a>
+				<li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti doppiati<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li class="active"><a href="#">Cartoni animati<span class="sr-only">(current)</span></a></li>
 						<li><a href="film.php">Film</a></li>
 						<li><a href="serie_tv.php">Serie tv</a></li>
 						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovela</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="tmp.php">tmp</a></li>
+						
 					</ul>
 				</li>
 				<li class="dropdown hidden-md hidden-lg"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lingua<span class="caret"></span></a>

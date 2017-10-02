@@ -21,7 +21,7 @@
   
 <?php include_once ("connessione_db.php"); ?>
   
-<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;">
+<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;font-family:'Times New Roman',Times,serif; font-size:16px;"">
 	
 		<?php include_once ("header.php"); ?>
 	
@@ -47,16 +47,13 @@
 				<li class="active"><a href="javascript:void(0)">I clienti<span class="sr-only">(current)</span></a></li>
 				<li><a href="dove_siamo.php">Dove siamo</a></li>
 				<li><a href="contatti.php">Contatti</a></li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Crediti<span class="caret"></span></a>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti doppiati<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="cartoni_animati.php">Cartoni animati</a></li>
 						<li><a href="film.php">Film</a></li>
 						<li><a href="serie_tv.php">Serie tv</a></li>
 						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovela</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="tmp.php">tmp</a></li>
-						<!--<li role="separator" class="divider"></li>
-						<li><a href="#">One more separated link</a></li>-->
+						
 					</ul>
 				</li>
 				<li class="dropdown hidden-md hidden-lg"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lingua<span class="caret"></span></a>

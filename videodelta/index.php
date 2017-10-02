@@ -51,10 +51,7 @@
 						<li><a href="film.php">Film</a></li>
 						<li><a href="serie_tv.php">Serie tv</a></li>
 						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovele</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="tmp.php">tmp</a></li>
-						<!--<li role="separator" class="divider"></li>
-						<li><a href="#">One more separated link</a></li>-->
+						
 					</ul>
 				</li>
 				<li class="dropdown hidden-md hidden-lg"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lingua<span class="caret"></span></a>
