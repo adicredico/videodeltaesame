@@ -104,8 +104,8 @@
 				
 				echo "<div class='span3'>";
 				echo "<article><img class='img-thumbnail locandina' src='images/prodotti/tutti/$immagine'>";
-				echo "<h5>$nome</h5>";
-				echo "<h6>$categoria</h6>";
+				echo "<h4>$nome</h4>";
+				echo "<h5>$categoria</h5>";
 				echo "</article>";
 				echo "</div>";
 				

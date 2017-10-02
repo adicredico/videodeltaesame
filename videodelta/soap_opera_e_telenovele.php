@@ -78,17 +78,17 @@
 			<div class="col-md-12">
 				<ol class="breadcrumb">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="#">Crediti</a></li>
+					<li><a href="#">Prodotti doppiati</a></li>
 					<li class="active">Soap opera/telenovele</li>
 				</ol>
 				<h1 class="page-header">Soap opera/telenovele</h1>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-9">
 				
 				<?php include_once ("query_soap_opera_e_telenovele.php"); ?>
 			
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 			
 				<?php include_once ("aside.php"); ?>
 			

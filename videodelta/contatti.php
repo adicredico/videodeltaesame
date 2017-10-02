@@ -82,7 +82,7 @@
 				</ol>
 				<h1 class="page-header">VIDEODELTA</h1>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-9">
 				<h2>Via Vandalino, 49 - 10142 TORINO</h2>
 				<p><h3>Centralino 011 772 31 35  dalle 9 alle 18 da lunedì a venerdì</p>
 				<p>Oppure invia una mail a info@videodeltasrl.it</h3></p>
@@ -120,7 +120,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 			
 				<?php include_once ("aside.php"); ?>
 			

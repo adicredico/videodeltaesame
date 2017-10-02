@@ -82,12 +82,12 @@
 				</ol>
 				<h1 class="page-header">VIDEODELTA</h1>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-9">
 				<p>Via Vandalino, 49 - 10142 TORINO</p>      
 				<p>Per trovarci con il navigatore imposta Via De Sanctis 49 - 10142 TORINO</p>   
 				<img src="images/mappa.png" alt="">
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 			
 				<?php include_once ("aside.php"); ?>
 			

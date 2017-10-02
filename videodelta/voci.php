@@ -82,7 +82,7 @@
 				</ol>
 				<h1 class="page-header">Le voci</h1>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-9">
 				<p>Ascolta alcune delle nostre voci maschili e femminili.</p>      
 				<p>I codici associati a ciascuna voce potranno esserti utili per richiedere un preventivo.</p>
 			
@@ -179,7 +179,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 			
 				<?php include_once ("aside.php"); ?>
 			

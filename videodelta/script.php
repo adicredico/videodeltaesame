@@ -24,12 +24,20 @@
 					effect_speed:1000
 				});
 				
-				$("#button3").click(function(){
+				/*$("#button3").click(function(){
         			$("#demo3").fadeToggle("slow");
     			});
 				$("#button1").click(function(){
         			$("#demo1").toggle("slow");
+    			});*/
+    			
+    			
+    			$(".demo-button").on("click",function(){
+    				var demoId = $(this).attr("data-demoid");
+    				$("#"+demoId).fadeToggle("slow");
     			});
+    			
+    			
     			$('[data-toggle="tooltip"]').tooltip();
     			
     			
