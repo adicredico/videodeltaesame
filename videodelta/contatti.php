@@ -19,7 +19,7 @@
   
 <?php include_once ("connessione_db.php"); ?>
   
-<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;font-family:'Times New Roman',Times,serif; font-size:16px;"">
+<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;font-family:'Times New Roman',Times,serif; font-size:16px;">
 	
 		<?php include_once ("header.php"); ?>
 	
