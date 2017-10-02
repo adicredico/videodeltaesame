@@ -2,7 +2,7 @@
 
 		<div class="row">
 			<div class="col-md-8">
-				<h1><b>VIDEODELTA  Doppiaggio e Post-Produzione</h1>
+				<h1><b>VIDEODELTA - Doppiaggio e Post-Produzione</h1>
 			</div>
 			<div class="col-md-4 hidden-sm hidden-xs">
 				<ul class="list-inline text-right">

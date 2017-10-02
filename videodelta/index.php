@@ -11,18 +11,15 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		
+		<?php include_once ("script.php"); ?>
+		
 	</head>
 <body>
   
 <?php include_once ("connessione_db.php"); ?>
   
-<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;">
+<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed; font-family:'Times New Roman',Times,serif; font-size:16px;">
 	
 		<?php include_once ("header.php"); ?>
 	
@@ -42,20 +39,20 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Chi siamo<span class="sr-only">(current)</span></a></li>
+				<li class="active"><a href="index.php">Chi siamo<span class="sr-only">(current)</span></a></li>
 				<li><a href="voci.php">Le voci</a></li>
 				<li><a href="studi.php">Gli studi</a></li>
 				<li><a href="clienti.php">I clienti</a></li>
 				<li><a href="dove_siamo.php">Dove siamo</a></li>
 				<li><a href="contatti.php">Contatti</a></li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Crediti<span class="caret"></span></a>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prodotti doppiati<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="cartoni_animati.php">Cartoni animati</a></li>
 						<li><a href="film.php">Film</a></li>
 						<li><a href="serie_tv.php">Serie tv</a></li>
-						<li><a href="soap_opera_telenovela.php">Soap opera/Telenovela</a></li>
+						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovele</a></li>
 						<li role="separator" class="divider"></li>
-						<li><a href="tmp2.php">tmp</a></li>
+						<li><a href="tmp.php">tmp</a></li>
 						<!--<li role="separator" class="divider"></li>
 						<li><a href="#">One more separated link</a></li>-->
 					</ul>
@@ -66,30 +63,12 @@
 						<li><a href="#">Inglese</a></li>
 						<li><a href="#">Cinese</a></li>
 						<li><a href="#">Russo</a></li>
-						<!--<li role="separator" class="divider"></li>
-						<li><a href="#">Separated link</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">One more separated link</a></li>-->
 					</ul>
 				</li>
 			</ul>
-      
-     <!-- <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li> -->
-			</ul>
-			<form class="navbar-form navbar-right" role="search" action="ricerca.php" method="post">
+			<form class="navbar-form navbar-right" role="search" action="ricerca_prodotti.php" method="post">
 				<div class="input-group">
-					<input name ="ricerca" type="text" class="form-control" placeholder="Cerca">
+					<input name ="ricerca" type="text" class="form-control" placeholder="Cerca Prodotti">
 					<span class="input-group-btn"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button></span>
 				</div>
 			</form>
@@ -104,26 +83,27 @@
 			<div class="col-md-12">
 				<h1 class="page-header">Chi siamo</h1>
 			</div>
-			<div class="col-md-8">
-			<p>
-			Videodelta Srl è una società di doppiaggio e post-produzione audio-video sita in Torino. Fondata nel 1986, Videodelta, in questi 30 anni di ininterrotta presenza nel 
-			panorama televisivo italiano, ha acquisito e consolidato una vasta esperienza nella creazione dell’edizione italiana di tipologie eterogenee di programmi TV, quali: 
-			film, telefilm, cartoni animati, documentari, soap opera, telenovelas. I servizi offerti consentono di realizzare la versione italiana di prodotti televisivi 
-			conformemente alle specifiche tecniche richieste dai clienti e dai principali broadcaster italiani e stranieri (RTI, RAI, LA7, DISNEY, WARNER BROS, FOX, MGM, 
-			UNIVERSAL, PARAMOUNT, NETFLIX). Il prodotto finale è confezionato in SD o HD partendo dalla ricezione dei materiali (via rete con SmartJog o Aspera o su supporto 
-			fisico), con traduzione e adattamento dei dialoghi, programmazione, registrazione e sincronizzazione del doppiaggio, per terminare con missaggio, controllo qualità, 
-			lavorazioni video e grafiche (editing, titoli, cartelli, sottotitoli). Videodelta si avvale di un ampio organico di traduttori e adattatori, fonici e montatori video, 
-			nonché di un ricco panel di doppiatori professionisti e direttori del doppiaggio attivi a Torino, Roma e Milano.
-			</p>
-			<div>
-			<p><h2>Guarda il nostro Showreel!</h2></p>
-			<video width="800" controls>
-            <source src="video/showreel_2017.mp4" type="video/mp4">
-             Your browser does not support HTML5 video.
-             </video>
-			 </div>
+			<div class="col-md-9">
+				<p>
+					Videodelta Srl è una società di doppiaggio e post-produzione audio-video sita in Torino. Fondata nel 1986, Videodelta, in questi 30 anni di ininterrotta presenza nel 
+					panorama televisivo italiano, ha acquisito e consolidato una vasta esperienza nella creazione dell’edizione italiana di tipologie eterogenee di programmi TV, quali: 
+					film, telefilm, cartoni animati, documentari, soap opera, telenovelas. I servizi offerti consentono di realizzare la versione italiana di prodotti televisivi 
+					conformemente alle specifiche tecniche richieste dai clienti e dai principali broadcaster italiani e stranieri (RTI, RAI, LA7, DISNEY, WARNER BROS, FOX, MGM, 
+					UNIVERSAL, PARAMOUNT, NETFLIX). Il prodotto finale è confezionato in SD o HD partendo dalla ricezione dei materiali (via rete con SmartJog o Aspera o su supporto 
+					fisico), con traduzione e adattamento dei dialoghi, programmazione, registrazione e sincronizzazione del doppiaggio, per terminare con missaggio, controllo qualità, 
+					lavorazioni video e grafiche (editing, titoli, cartelli, sottotitoli). Videodelta si avvale di un ampio organico di traduttori e adattatori, fonici e montatori video, 
+					nonché di un ricco panel di doppiatori professionisti e direttori del doppiaggio attivi a Torino, Roma e Milano.
+				</p>
+				<h2>Guarda il nostro Showreel!</h2>
+				<!--<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="video/showreel_2017.mp4"></iframe>
+				</div>-->
+					<video width="800" controls>
+						<source src="video/showreel_2017.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+					</video>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 			
 				<?php include_once ("aside.php"); ?>
 
@@ -135,11 +115,5 @@
 	<?php include_once ("footer.php"); ?>
 	
 </div>
-
-	
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

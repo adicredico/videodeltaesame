@@ -3,19 +3,19 @@
 												<form action="richiedi_provino.php" method="post">
 													<div class="form-group">
 														<label for="name">Nome</label>
-														<input type="text" class="form-control" name="name" id="name" placeholder="Inserisci nome">
+														<input type="text" class="form-control" name="name" id="name" placeholder="Inserisci nome" required>
 													</div>
 													<div class="form-group">
 														<label for="surname">Cognome</label>
-														<input type="text" class="form-control" name="surname" id="surname" placeholder="Inserisci cognome">
+														<input type="text" class="form-control" name="surname" id="surname" placeholder="Inserisci cognome" required>
 													</div>
 													<div class="form-group">
 														<label for="">Email</label>
-														<input type="email" class="form-control" name="email" id="email" placeholder="Inserisci email">
+														<input type="email" class="form-control" name="email" id="email" placeholder="Inserisci email" required>
 													</div>
 													<div class="form-group">
-    													<label for="exampleFormControlFile1">Allega il tuo CV in formato PDF</label>
-    													<input type="file" class="form-control-file" id="exampleFormControlFile1">
-  													</div>
+														<label for="tel">Numero di telefono:</label>
+														<input type="tel" class="form-control" name="tel" id="tel" placeholder="Inserisci numero di telefono" required>
+													</div>
 													<button type="submit" class="btn btn-default">Invia</button>
 												</form>

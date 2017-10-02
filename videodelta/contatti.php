@@ -11,12 +11,9 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		
+		<?php include_once ("script.php"); ?>
+		
 	</head>
 <body>
   
@@ -50,12 +47,12 @@
 				<li class="active"><a href="#">Contatti<span class="sr-only">(current)</span></a></li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Crediti<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Cartoni animati</a></li>
-						<li><a href="#">Film</a></li>
+						<li><a href="cartoni_animati.php">Cartoni animati</a></li>
+						<li><a href="film.php">Film</a></li>
 						<li><a href="serie_tv.php">Serie tv</a></li>
-						<li><a href="#">Soap opera/Telenovela</a></li>
+						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovela</a></li>
 						<li role="separator" class="divider"></li>
-						<li><a href="tmp2.php">tmp2</a></li>
+						<li><a href="tmp.php">tmp</a></li>
 						<!--<li role="separator" class="divider"></li>
 						<li><a href="#">One more separated link</a></li>-->
 					</ul>
@@ -66,30 +63,12 @@
 						<li><a href="#">Inglese</a></li>
 						<li><a href="#">Cinese</a></li>
 						<li><a href="#">Russo</a></li>
-						<!--<li role="separator" class="divider"></li>
-						<li><a href="#">Separated link</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">One more separated link</a></li>-->
 					</ul>
 				</li>
 			</ul>
-      
-     <!-- <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li> -->
-			</ul>
-			<form class="navbar-form navbar-right" role="search" action="ricerca.php" method="post">
+			<form class="navbar-form navbar-right" role="search" action="ricerca_prodotti.php" method="post">
 				<div class="input-group">
-					<input name ="ricerca" type="text" class="form-control" placeholder="Cerca">
+					<input name ="ricerca" type="text" class="form-control" placeholder="Cerca Prodotti">
 					<span class="input-group-btn"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button></span>
 				</div>
 			</form>
@@ -100,6 +79,10 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
+				<ol class="breadcrumb">
+					<li><a href="index.php">Home</a></li>
+					<li class="active">Contatti</li>
+				</ol>
 				<h1 class="page-header">VIDEODELTA</h1>
 			</div>
 			<div class="col-md-8">
@@ -151,10 +134,5 @@
 	<?php include_once ("footer.php"); ?>
 	
 </div>
-	
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

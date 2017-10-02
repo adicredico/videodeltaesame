@@ -1,24 +1,21 @@
 <?php
 
-$connessione = new mysqli("localhost","maurizio","matec","videodelta");
+include_once ("connessione_db.php");
 
 $nome = $_REQUEST["name"];
 $cognome = $_REQUEST["surname"];
 $email = $_REQUEST["email"];
+$telefono = $_REQUEST["tel"];
 
-$query = "INSERT INTO richiesta_provini(nome,cognome,email) VALUES ('$nome','$cognome','$email')";
+$query = "INSERT INTO richieste_provino(nome,cognome,email,telefono) VALUES ('$nome','$cognome','$email','$telefono')";
 
-$connessione->query($query);
+$risultato = $connessione->query($query);
 
-if ($connessione->query($query) === TRUE) {
-	echo "La tua richiesta è stata registrata!";
-}
-else {
+if (!$risultato) {
 	echo "Non è stato possibile registrare la tua richiesta.";
 }
 
-
-header('Location: ' . $_SERVER['HTTP_REFERER']);
+header('Location: grazie.php');
 exit;
 
 ?>
