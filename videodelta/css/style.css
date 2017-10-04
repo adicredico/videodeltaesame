@@ -11,16 +11,12 @@ img.locandina {
 	margin: auto;
 	
 }
-.bordo{
-	border: 1px solid black;
-}
-.prova{
-	margin: auto;
-	padding: ;
-}
 
 .foto{
 	margin-bottom:1em;
+}
+.foto:hover{
+	transform:scale(1.1);
 }
 
 .loghi{

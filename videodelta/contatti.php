@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>VIDEODELTA - ...</title>
+		<title>VIDEODELTA - Contatti</title>
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,6 @@
 						<li><a href="film.php">Film</a></li>
 						<li><a href="serie_tv.php">Serie tv</a></li>
 						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovela</a></li>
-						
 					</ul>
 				</li>
 				<li class="dropdown hidden-md hidden-lg"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lingua<span class="caret"></span></a>

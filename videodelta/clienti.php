@@ -21,7 +21,7 @@
   
 <?php include_once ("connessione_db.php"); ?>
   
-<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;font-family:'Times New Roman',Times,serif; font-size:16px;"">
+<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;font-family:'Times New Roman',Times,serif; font-size:16px;">
 	
 		<?php include_once ("header.php"); ?>
 	
@@ -53,10 +53,6 @@
 						<li><a href="film.php">Film</a></li>
 						<li><a href="serie_tv.php">Serie tv</a></li>
 						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovela</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="tmp.php">tmp</a></li>
-						<!--<li role="separator" class="divider"></li>
-						<li><a href="#">One more separated link</a></li>-->
 					</ul>
 				</li>
 				<li class="dropdown hidden-md hidden-lg"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lingua<span class="caret"></span></a>
@@ -87,14 +83,12 @@
 				</ol>
 				<h1 class="page-header">I nostri clienti</h1>
 			</div>
-			<div class="col-md-10">
+			<div class="col-md-9">
 				<div class="container-fluid">
       				<div class="row">
 					
-						<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-							<a href="javascript:void(0)">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/media.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo1">More info</button>
 							<div id="demo1" class="collapse">
 								Mediaset S.p.A. è un'azienda privata italiana attiva nell'ambito dei media e della comunicazione. È specializzata primariamente in produzione e distribuzione televisiva in libera visione (free to air, FTA) e a pagamento (pay-tv e pay per view) su più piattaforme, oltre che in produzione e distribuzione cinematografica, multimediale e in raccolta pubblicitaria.
@@ -104,10 +98,8 @@
 							</div>
 						</div>
 						
-						<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/disney1.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo2">More info</button>
 							<div id="demo2" class="collapse">
 								La Walt Disney Company, comunemente conosciuta come Disney, è una multinazionale statunitense attiva nel settore mediatico e dell'intrattenimento con sede a Burbank, nello Stato della California.
@@ -117,10 +109,8 @@
 							</div>
 						</div>		
 						
-       					<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+       					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy3" src="images/loghi/netflix.jpg" alt="" style="display:block" data-toggle="tooltip" title="More info">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo3">More info</button>
                             <div id="demo3" class="collapse">
 								Netflix è un'azienda operante nella distribuzione via internet di film, serie televisive e altri contenuti d'intrattenimento.
@@ -129,40 +119,32 @@
 							</div>
         				</div>
 						
-       					<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+       					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/rai.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo4">More info</button>
                             <div id="demo4" class="collapse">
 								La Rai − Radiotelevisione Italiana S.p.A., denominazione spesso abbreviata in italiano in Rai o RAI[2], è la società concessionaria in esclusiva del servizio pubblico radiotelevisivo in Italia. È una delle più grandi aziende di comunicazione d'Europa, il quinto gruppo televisivo del continente.
 							</div>
         				</div>
 						
-        				<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+        				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/vodafone.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo5">More info</button>
                             <div id="demo5" class="collapse">
 								Vodafone Sky TV è stata una piattaforma televisiva commerciale per la televisione mobile offerta a pagamento da Vodafone Italia. La piattaforma era disponibile esclusivamente in Italia e riservata ai clienti Vodafone.
 							</div>
         				</div>
 						
-       					<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+       					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/sonar.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo6">More info</button>
                             <div id="demo6" class="collapse">
 								Sonar Film is exclusively based in the LT1 lecture theatre of Southampton Solent University. Unlike a regular lecture theatre, LT1 is kitted out with Dolby’s cutting edge ‘Atmos’ sound system. Whereas most cinemas might feel pretty good about their 7.1 surround systems, the Dolby Atmos system boasts a breathtaking 17.1.8 speaker layout.
 							</div>
         				</div>
 						
-       					<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+       					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/paramount.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo7">More info</button>
                             <div id="demo7" class="collapse">
 								La Paramount Pictures Corporation è una delle più importanti case cinematografiche degli Stati Uniti d'America, una casa di produzione che fa risalire la propria fondazione nel 1912 quando l'ungherese Adolph Zukor l'8 maggio del 1912 creò la Famous Players Film Co., una compagnia che in seguito sarebbe confluita nella Famous Players-Lasky Corporation in società con la Paramount, una casa di distribuzione che avrebbe poi dato il suo nome alla futura Paramount Pictures.
@@ -170,20 +152,16 @@
 							</div>
         				</div>
 						
-       					<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+       					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/la7c.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo8">More info</button>
                             <div id="demo8" class="collapse">
 								LA7 è un canale televisivo del gruppo Cairo Communication.[1][2]LA7, la cui sede legale si trova a Roma, è visibile in digitale terrestre e via satellite su Sky Italia e Tivùsat. La programmazione è di tipo generalista, caratterizzata dalla presenza di programmi di approfondimento e di intrattenimento. L'annunciatore ufficiale della rete è il doppiatore Francesco Prando[3] e la raccolta pubblicitaria è affidata alla concessionaria Cairo Pubblicità.
 							</div>
         				</div>
 						
-       					<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+       					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/sky2.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo9">More info</button>
                             <div id="demo9" class="collapse">
 								Sky è un marchio internazionale utilizzato dalle società controllate dalla News Corporation di Rupert Murdoch per le loro piattaforme televisive satellitari.Il marchio Sky nasce nel 1989 con la nascita della piattaforma britannica Sky Television che consisteva in pacchetto di quattro canali.
@@ -191,10 +169,8 @@
 							</div>
         				</div>
 						
-       					<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+       					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/redeglobo.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo10">More info</button>
                             <div id="demo10" class="collapse">
 								Rede Globo (o Rede Globo de Televisão, nota anche come TV Globo o semplicemente Globo) è una rete televisiva brasiliana le cui trasmissioni iniziarono a Rio de Janeiro, il 26 aprile 1965.
@@ -203,20 +179,16 @@
 							</div>
         				</div>
 						
-       					<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+       					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/diagonal.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo11">More info</button>
                             <div id="demo11" class="collapse">
 								Diagonal TV S.A. es una empresa de producción audiovisual española perteneciente al grupo Endemol Shine Iberia.1​ Fundada en Barcelona en 1997 se ha dedicado a producir principalmente series de televisión en catalán y en español. Es una de las principales productoras españolas contando en su haber con varias producciones de gran éxito.
 							</div>
         				</div>
 						
-       					<div class="col-lg-3 col-md-4 col-xs-12 loghi" style="text-align:center;">
-         					<a href="javascript:void(0)">
+       					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 loghi" style="text-align:center;">
 								<img class="img-thumbnail lazy" src="images/loghi/amazon.jpg" alt="" style="display:block">
-							</a>
 							<button type="button" class="btn-btn-info demo-button" data-demoid="demo12">More info</button>
                             <div id="demo12" class="collapse">
 								Fire TV | Streaming Media Player Amazon 4.3 out of 5 stars    35,192 customer reviews  | 1000+ answered questionsCurrently unavailable. We don't know when or if this item will be back in stock.Fire TV supports 4K Ultra HD for true-to-life picture quality. Watch high-definition 1080p streams on Amazon Video, Netflix, YouTube, Hulu and more, even without a 4K TV.Enjoy over 15,000 apps, games, and Alexa skills including access to over 300,000 TV episodes and movies on Netflix, Amazon Video, HBO NOW, Hulu, and more.Launch and control content with the included Alexa Voice Remote. Simply say, “Play Game of Thrones” or “Launch Netflix” and Alexa will respond instantly. Plus, play music, find movie show times, order a pizza, and more—just ask.No cable or satellite? No problem. Watch the best of live TV and sports from AMC, HGTV, ESPN, FOX, and others with a subscription to DIRECTV NOW, or top-rated primetime shows with CBS All Access.Find the best way to watch with universal search results from over 140 channels and apps including Netflix, Showtime, and Amazon VideoIncludes 75% more processing power than the previous generation Amazon Fire TV, a dedicated graphics engine, better Wi-Fi support, 2 GB of memory, 8 GB of storage and expandable storage of up to 200 GBPrime members get unlimited access to Prime Video, featuring thousands of movies and TV episodes at no additional cost. Plus, members can add over 100 premium and specialty channels like HBO and SHOWTIME—no cable or satellite subscription necessary.Play current favorites or quickly discover what to watch next directly from the Home screen.
@@ -226,7 +198,7 @@
         			</div>
         		</div>			
 			</div>
-			<div class="col-md-2 col-xs-12">
+			<div class="col-md-3">
 			
 				<?php include_once ("aside.php"); ?>
 			

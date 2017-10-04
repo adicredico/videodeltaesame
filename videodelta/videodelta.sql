@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.2
+-- version 4.7.0
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Creato il: Ott 02, 2017 alle 16:18
--- Versione del server: 5.6.35
--- Versione PHP: 7.1.6
+-- Host: 127.0.0.1
+-- Creato il: Ott 03, 2017 alle 20:55
+-- Versione del server: 10.1.25-MariaDB
+-- Versione PHP: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -161,8 +163,7 @@ CREATE TABLE `richieste_preventivo` (
 
 INSERT INTO `richieste_preventivo` (`id`, `nome`, `cognome`, `privato_azienda`, `tipo_societa`, `lingua_originale`, `email`, `telefono`) VALUES
 (1, 'Mario', 'Rossi', 'Azienda', '', '', 'mario.rossi@gmail.com', '5555555555'),
-(2, 'Giovanni', 'Verdi', 'Privato', '', '', 'giovanni.verdi@gmail.com', '5555555555'),
-(3, 'Mario', 'Rossi', 'Privato', '', 'ENG', 'mario.rossi@gmail.com', '5555555555');
+(2, 'Giovanni', 'Verdi', 'Privato', '', '', 'giovanni.verdi@gmail.com', '5555555555');
 
 -- --------------------------------------------------------
 
@@ -184,9 +185,7 @@ CREATE TABLE `richieste_provino` (
 
 INSERT INTO `richieste_provino` (`id`, `nome`, `cognome`, `email`, `telefono`) VALUES
 (1, 'Giovanni', 'Verdi', 'giovanni.verdi@gmail.com', '5555555555'),
-(2, 'Mario', 'Rossi', 'mario.rossi@gmail.com', '5555555555'),
-(3, 'Giovanni', 'Verdi', 'giovanni.verdi@gmail.com', '5555555555'),
-(4, 'Mario', 'Rossi', 'mario.rossi@gmail.com', '5555555555');
+(2, 'Mario', 'Rossi', 'mario.rossi@gmail.com', '5555555555');
 
 -- --------------------------------------------------------
 
@@ -335,7 +334,8 @@ ALTER TABLE `serie_tv`
 -- AUTO_INCREMENT per la tabella `soap_opera_e_telenovele`
 --
 ALTER TABLE `soap_opera_e_telenovele`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

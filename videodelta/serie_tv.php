@@ -19,7 +19,7 @@
   
 <?php include_once ("connessione_db.php"); ?>
   
-<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;font-family:'Times New Roman',Times,serif; font-size:16px;""">
+<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;font-family:'Times New Roman',Times,serif; font-size:16px;">
 	
 		<?php include_once ("header.php"); ?>
 	
@@ -51,7 +51,6 @@
 						<li><a href="film.php">Film</a></li>
 						<li class="active"><a href="serie_tv.php">Serie tv<span class="sr-only">(current)</span></a></li>
 						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovela</a></li>
-						
 					</ul>
 				</li>
 				<li class="dropdown hidden-md hidden-lg"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lingua<span class="caret"></span></a>

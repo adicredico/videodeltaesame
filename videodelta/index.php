@@ -51,7 +51,6 @@
 						<li><a href="film.php">Film</a></li>
 						<li><a href="serie_tv.php">Serie tv</a></li>
 						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovele</a></li>
-						
 					</ul>
 				</li>
 				<li class="dropdown hidden-md hidden-lg"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lingua<span class="caret"></span></a>
@@ -92,19 +91,17 @@
 					nonché di un ricco panel di doppiatori professionisti e direttori del doppiaggio attivi a Torino, Roma e Milano.
 				</p>
 				<h2>Guarda il nostro Showreel!</h2>
-				<!--<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="video/showreel_2017.mp4"></iframe>
-				</div>-->
+				<div class="embed-responsive embed-responsive-16by9">
 					<video width="800" controls>
 						<source src="video/showreel_2017.mp4" type="video/mp4">
 						Your browser does not support HTML5 video.
 					</video>
+				</div>
 			</div>
 			<div class="col-md-3">
 			
 				<?php include_once ("aside.php"); ?>
 
-			
 			</div>
 		</div>
 	</div>

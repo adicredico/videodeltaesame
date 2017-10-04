@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>VIDEODELTA - ...</title>
+		<title>VIDEODELTA - Gli studi</title>
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
   
 <?php include_once ("connessione_db.php"); ?>
   
-<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;font-family:'Times New Roman',Times,serif; font-size:16px;"">
+<div class="container-fluid" style="background:url('images/pexels-photo-315072.jpeg'); background-size: cover; background-attachment: fixed;font-family:'Times New Roman',Times,serif; font-size:16px;">
 	
 		<?php include_once ("header.php"); ?>
 	
@@ -51,7 +51,6 @@
 						<li><a href="film.php">Film</a></li>
 						<li><a href="serie_tv.php">Serie tv</a></li>
 						<li><a href="soap_opera_e_telenovele.php">Soap opera/Telenovela</a></li>
-						
 					</ul>
 				</li>
 				<li class="dropdown hidden-md hidden-lg"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lingua<span class="caret"></span></a>
@@ -92,124 +91,124 @@
 			</div>
 			<div class="col-md-9">
 				<div class="row">
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4719.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4719.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4719_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4700.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4700.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4700_big.png');return false;">
+						</a>							
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4751.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4751_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4751.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4726.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4726_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4726.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4749.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4749_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4749.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4758.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4758_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4758.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4753.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4753_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4753.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4712.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4712_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4712.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4696.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4696_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4696.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4784.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4784_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4784.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4766.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4766_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4766.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4767.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4767_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4767.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4794.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4794_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4794.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4774.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4774_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4774.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4647.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4647_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4647.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4655.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4655_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4655.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4813.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4813_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4813.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4816.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4816_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4816.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4819.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4819_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4819.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4658.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4658_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4658.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4751.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4751_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4751.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4726.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4726_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4726.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4784.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4784_big.png');return false;">
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4784.jpg" alt="" width="518" height="291">
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-4 col-xs-12 foto">
-						<a href="#">
-							<img class="img-thumbnail lazy" data-original="images/studi/4767.jpg" alt="" width="518" height="291">
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 foto">
+						<a href="javascript:void(0)">
+							<img class="img-thumbnail lazy" data-original="images/studi/4767.jpg" alt="" width="518" height="291" onclick="window.open('images/studi/4767_big.png');return false;">
 						</a>
 					</div>
 				</div>
